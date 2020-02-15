@@ -1,0 +1,40 @@
+body {
+  background-color: #00172f;
+}
+
+.panel {
+  background-color: #ffffff;
+  border: 5px solid #0b2238;
+  width: 22%;
+  height: 185px;
+  margin-left: 35%;
+  margin-top: 10%;
+  padding: 32px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+}
+
+label, #name, #password, #submit {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #3a3a3a;
+}
+
+label {
+  color: #3a3a3a;
+}
+
+#name, #password {
+  width: 290px;
+  height: 36px;
+  border: 1.4px solid #969696;
+  font-size: 15px;
+  padding-left: 4px;
+}
+
+#submit {
+  background-color: rgba(0, 23, 47, 0.10);
+  width: 90px;
+  height: 35px;
+  border-radius: 1px;
+  margin-left: 70%;
+}
